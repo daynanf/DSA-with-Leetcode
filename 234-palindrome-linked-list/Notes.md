@@ -1,1 +1,1 @@
-<h2>palindrome-linked-list Notes</h2><hr>[ Time taken: 11m 30s ]
+<h2>palindrome-linked-list Notes</h2><hr>[ Time taken: 10m 0s ]
