@@ -14,4 +14,4 @@ class Solution:
             if old:
                 res = min(res, (pos - old) << 1)
 
-        return -(res == 200) | res
+        return -(res == 200) or res
