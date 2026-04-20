@@ -1,8 +1,10 @@
 class Solution:
     def maximumDifference(self, nums: List[int]) -> int:
         ans=-1
+        mini=nums[0]
         for i in range(len(nums)):
-            for j in range(i+1,len(nums)):
-                if nums[j]>nums[i]:
-                    ans=max(ans,nums[j]-nums[i])
+            if nums[i]>mini:
+                ans=max(ans,nums[i]-mini)
+            else:
+                mini=nums[i]
         return ans 
